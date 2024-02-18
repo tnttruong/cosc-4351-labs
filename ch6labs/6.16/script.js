@@ -1,19 +1,19 @@
 function calcWordFrequencies() {
-    let words = prompt("enter words");
+    let words = prompt("enter words separated by spaces");
     let wordList = words.split(" ");
-    let freq = {}; 
+    let freq = {};
 
     for(i=0; i<wordList.length; i++){
         let word = wordList[i];
-        if(freq[word]){
-            freq[word] += 1;
+        if(word in freq){
+            freq[word]++;
         }
         else{
             freq[word] = 1;
         }
     }
 
-    for(let word of wordList){
+    for(let word in freq){
         console.log(word + " " + freq[word]);
     }
 }
