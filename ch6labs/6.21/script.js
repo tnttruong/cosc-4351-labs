@@ -24,6 +24,5 @@ function playGuessingGame(numToGuess, totalGuesses=10){
             alert("ran out of guesses");
         }
     }
-
     return 0;
 }
