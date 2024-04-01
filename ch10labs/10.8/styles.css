@@ -1,5 +1,9 @@
 /* Add your styles here */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 /* Given CSS rules below */
 body {
    margin: 0;
@@ -10,8 +14,11 @@ header {
    border-bottom: 2px solid #93B5C6;
    background-color: #DDEDAA;
    padding: 8px;
+<<<<<<< HEAD
    display: flex;
    justify-content: space-between;
+=======
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 }
 
 .logo {
@@ -21,6 +28,7 @@ header {
 
 .content {
    margin-left: 30px;
+<<<<<<< HEAD
    display: flex;
    flex-wrap: wrap;
 }
@@ -30,12 +38,17 @@ header {
    flex-wrap: wrap;
    flex-grow: 1;
    flex-basis: 70%;
+=======
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 }
 
 .title {
    border-bottom: 1px dashed #93B5C6;
+<<<<<<< HEAD
    display: flex;
    align-items: baseline;
+=======
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 }
 
 .title h1 {
@@ -49,10 +62,13 @@ header {
 
 .summary {
    margin-top: 30px;
+<<<<<<< HEAD
    display: flex;
    justify-content: space-evenly;
    flex-grow: 1;
    flex-basis: 100%;
+=======
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 }
 
 .summary > div {
@@ -64,6 +80,7 @@ header {
    width: 210px;
 }
 
+<<<<<<< HEAD
 .summary > div > div {
    display: flex;
    justify-content: space-between;
@@ -83,4 +100,8 @@ header {
    margin-left: 100px;
    flex-grow: 1;
    flex-basis: 20%;
+=======
+.related-content {
+   margin-left: 100px;
+>>>>>>> 1174866e084e1ad8ade4b2ef80303a0136f258d7
 }
